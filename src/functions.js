@@ -483,7 +483,7 @@ function mouseover(d, size, svg, width, height, trail, explanation, percentage, 
         
         percentage.text(percentageString);
         
-        number.text(d.value);
+//        number.text(d.value);
        
         var sequenceArray = getAncestors(d);
         updateBreadcrumbs(sequenceArray, percentageString, width, height, trail, nodes, color);
