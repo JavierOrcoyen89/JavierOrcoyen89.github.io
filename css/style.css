@@ -1,0 +1,128 @@
+html {
+    height: 100%;
+}
+body{
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-image: linear-gradient(to bottom, #095994, #0DB6DC);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}    
+.containerTop {
+    background-image: linear-gradient(to bottom, rgba(3,45,88,0.75), rgba(3,45,88,0.25));
+}
+.containerDown {
+    background-image: linear-gradient(to bottom, rgba(3,45,88,0.25), rgba(3,45,88,0.75));
+}
+h3 {
+    color: #78D2FE;
+}
+.yAxisBars { 
+    fill: #78D2FE;
+    font-weight: 450;
+} 
+.label{
+    fill: #78D2FE;
+    text-anchor: middle;
+}
+.borderSunburst{
+    stroke: #F5F5F5;
+    stroke-width: 0.8;
+}
+.textSunburst {
+    text-anchor: middle;
+    fill: #FFFFFF;
+    font-weight: 450;
+}
+.endlabelSunburst{
+    text-anchor: middle;
+    fill: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+.explanation {
+    position: absolute;
+    width: 140px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.percentage {
+    font-size: 2.5em;
+    fill: #FFFFFF;
+}
+.line {
+    fill: none;
+    stroke: #00113B;
+    stroke-width: 8px;
+}
+.area {
+    fill: #0A5991;
+}
+.areaPrediction {
+    fill: #1C86EE;
+}
+.axisTimeline { 
+    stroke: #00113B;
+    font-weight: 450;
+} 
+.axisTimeline path,
+.axisTimeline line{ 
+    fill: none;
+    stroke: #00113B;
+    stroke-width: 2px;
+}   
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+.focus circle {
+    fill: #78D2FE;
+    stroke: #00113B;
+    stroke-width: 6px;
+}
+.hover-line {
+    stroke: #00113B;
+    stroke-width: 3px;
+    stroke-dasharray: 7,3;
+}    
+.textTimeline {
+    text-anchor: middle;
+    fill: #78D2FE;
+    font-weight: 450;
+} 
+  .navigation {
+    background-color: #00113B;  
+}
+li {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#alertMessage {
+    font-weight: 450;
+    color: #FF0000;
+    margin-left: 10%;
+}
+#mainTitle {
+    font-size: 18px;
+    font-weight: 450;
+    color: #FFFFFF;
+}
+#worldwide {
+    background-color: #0A5991;
+    border: solid #78D2FE;
+}
+#prediction {
+    background-color: #0A5991;
+    border: solid #78D2FE;
+    display: block;
+    margin-top:5%;
+    margin-left:10%;
+}
+    
